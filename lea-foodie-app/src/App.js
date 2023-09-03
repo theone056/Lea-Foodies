@@ -4,12 +4,12 @@ import Home from './Components/Home/Home.js'
 function App() {
   return (
     <div>
-       <Header/>
+       {/* <Header/> */}
        <Home/>
-       <About/>
+       {/* <About/>
        <Menu/>
        <Gallery/>
-       <Contact/>
+       <Contact/> */}
     </div>
   );
 }
