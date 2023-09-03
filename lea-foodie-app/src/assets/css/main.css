@@ -1309,6 +1309,11 @@ section {
   overflow: hidden;
 }
 
+.gallery-img {
+  height: 400px;
+    object-fit: cover;
+}
+
 .gallery .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -1327,6 +1332,10 @@ section {
 
 .gallery .swiper-slide-active {
   text-align: center;
+}
+
+.swiper-slide{
+  height: auto;
 }
 
 @media (min-width: 992px) {
