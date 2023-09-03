@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './Components/Home/Home.js'
+import Home from './Components/Home/Home.js';
 import Header from './Components/Header/Header.js';
 import Menu from './Components/Menu/Menu.js';
 import About from './Components/About/About.js';
 import Gallery from './Components/Gallery/Gallery.js';
+import Contact from './Components/Contact/Contact.js';
 
 function App() {
   return (
@@ -14,8 +15,7 @@ function App() {
        <About/>
        <Menu/>
        <Gallery/>
-       {/*
-       <Contact/> */}
+       <Contact/>
     </div>
   );
 }
