@@ -4,8 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import './assets/vendor/bootstrap/css/bootstrap.min.css';
+import './assets/vendor/bootstrap/css/bootstrap.css';
 import './assets/vendor/bootstrap-icons/bootstrap-icons.css';
+import './assets/vendor/swiper/swiper-bundle.min.css';
 import './assets/css/main.css';
 
 import './assets/vendor/bootstrap/js/bootstrap.bundle.min.js';
