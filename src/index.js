@@ -8,7 +8,6 @@ import './assets/vendor/bootstrap/css/bootstrap.css';
 import './assets/vendor/bootstrap-icons/bootstrap-icons.css';
 import './assets/css/main.css';
 
-import './assets/vendor/bootstrap/js/bootstrap.bundle.js';
 import './assets/js/main.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
