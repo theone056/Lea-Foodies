@@ -6,7 +6,7 @@
 * License: https://bootstrapmade.com/license/
 */
 document.addEventListener('DOMContentLoaded', () => {
-
+  "use strict";
   /**
    * Preloader
    */
@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelectorAll('.mobile-nav-toggle').forEach(el => {
     el.addEventListener('click', function(event) {
+      console.log("test");
       event.preventDefault();
       mobileNavToogle();
     })
