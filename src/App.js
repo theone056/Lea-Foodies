@@ -5,6 +5,7 @@ import Menu from './Components/Menu/Menu.js';
 import About from './Components/About/About.js';
 import Gallery from './Components/Gallery/Gallery.js';
 import Contact from './Components/Contact/Contact.js';
+import Footer from './Components/Footer/Footer.js';
 import AOS from 'aos';
 import '../node_modules/aos/dist/aos.css';
 import React,{useEffect} from "react";
@@ -22,6 +23,7 @@ function App() {
        <Menu/>
        <Gallery/>
        <Contact/>
+       <Footer/>
     </div>
   );
 }
