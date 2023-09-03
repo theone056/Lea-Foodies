@@ -580,24 +580,25 @@ section {
 }
 
 .about .call-us {
-  left: 10%;
-  right: 10%;
-  bottom: 10%;
+  right: 0%;
+  left: 70%;
+  top:3%;
   background-color: #fff;
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
-  padding: 20px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.08);
+  padding: 10px;
   text-align: center;
 }
 
 .about .call-us h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 5px;
   font-family: var(--font-default);
 }
 
 .about .call-us p {
-  font-size: 28px;
+  font-size: 20px;
+  margin-bottom: 0;
   font-weight: 700;
   color: var(--color-primary);
 }
@@ -622,6 +623,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  font-size: 18px;
 }
 
 .about .play-btn {
