@@ -14,6 +14,7 @@ const Menu = () => {
             <section id="menu" className="menu section-bg">
                 <div className="container" data-aos="fade-up">
                     <div className="section-header">
+                        <h2>Our Menu</h2>
                         <p>Check Our <span>Lea-mmy Menu</span></p>
                     </div>
                     <div className="tab-content" data-aos="fade-up" data-aos-delay="300">
