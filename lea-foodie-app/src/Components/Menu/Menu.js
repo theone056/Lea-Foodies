@@ -11,7 +11,7 @@ import menuItem9 from '../../assets/img/menu/lechonbelly.jpg';
 const Menu = () => {
     return (
         <div>
-            <section id="menu" className="menu">
+            <section id="menu" className="menu section-bg">
                 <div className="container" data-aos="fade-up">
                     <div className="section-header">
                         <p>Check Our <span>Lea-mmy Menu</span></p>
