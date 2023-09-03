@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import './assets/vendor/bootstrap/css/bootstrap.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './assets/vendor/bootstrap-icons/bootstrap-icons.css';
 import './assets/css/main.css';
 
-import './assets/vendor/bootstrap/js/bootstrap.min.js';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 import './assets/js/main.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
