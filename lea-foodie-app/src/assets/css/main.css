@@ -93,6 +93,7 @@ section {
 
 .section-header p span {
   color: var(--color-primary);
+  font-size: 28px;
 }
 
 /*--------------------------------------------------------------
@@ -918,6 +919,9 @@ section {
   color: var(--color-primary);
 }
 
+.menu-img-height {
+  height: 400px;
+}
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/

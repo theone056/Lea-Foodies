@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import './assets/vendor/bootstrap/css/bootstrap.min.css';
+import './assets/vendor/bootstrap/css/bootstrap.css';
 import './assets/vendor/bootstrap-icons/bootstrap-icons.css';
 import './assets/css/main.css';
 
