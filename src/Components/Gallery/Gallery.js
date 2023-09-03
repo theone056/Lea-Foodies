@@ -2,6 +2,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 
+import '../../../node_modules/swiper/swiper-bundle.min.css';
+import '../../../node_modules/swiper/swiper.min.css';
+
 import gallery1 from '../../assets/img/gallery/gallery-1.jpg';
 import gallery2 from '../../assets/img/gallery/gallery-2.jpg';
 import gallery3 from '../../assets/img/gallery/gallery-3.jpg';
