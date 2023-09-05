@@ -5,8 +5,8 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-document.addEventListener('DOMContentLoaded', () => {
-  "use strict";
+
+window.onload = function(){
   /**
    * Preloader
    */
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   const mobileNavShow = document.querySelector('.mobile-nav-show');
   const mobileNavHide = document.querySelector('.mobile-nav-hide');
-
+  console.log(mobileNavShow)
   document.querySelectorAll('.mobile-nav-toggle').forEach(el => {
     el.addEventListener('click', function(event) {
       console.log("test");
@@ -239,4 +239,4 @@ document.addEventListener('DOMContentLoaded', () => {
   //   aos_init();
   // });
 
-});
+}
