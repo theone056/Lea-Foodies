@@ -7,6 +7,8 @@
 */
 
 window.onload = function(){
+document.addEventListener('DOMContentLoaded', () => {
+  "use strict";
   /**
    * Preloader
    */
@@ -239,4 +241,5 @@ window.onload = function(){
   //   aos_init();
   // });
 
+});
 }
