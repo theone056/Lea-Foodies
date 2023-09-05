@@ -9,8 +9,6 @@ import './assets/vendor/bootstrap-icons/bootstrap-icons.css';
 import './assets/css/main.css';
 
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
-import './assets/js/main.js';
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
